@@ -33,5 +33,5 @@ List of common &amp; useful regex
 - ```[A-Z]{1,2}[0-9][0-9A-Z]?\s?[0-9][A-Z]{2} ``` - UK Postcode
 - ```^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$ ``` - UK mobile (+44 accepted)
 - ```^([a-f0-9]{6}|[a-f0-9]{3})$ ``` - Hex Colour
-
+- ```(?<Current>^[A-Z]{2}[0-9]{2}[A-Z]{3}$)|(?<Prefix>^[A-Z][0-9]{1,3}[A-Z]{3}$)|(?<Suffix>^[A-Z]{3}[0-9]{1,3}[A-Z]$)|(?<DatelessLongNumberPrefix>^[0-9]{1,4}[A-Z]{1,2}$)|(?<DatelessShortNumberPrefix>^[0-9]{1,3}[A-Z]{1,3}$)|(?<DatelessLongNumberSuffix>^[A-Z]{1,2}[0-9]{1,4}$)|(?<DatelessShortNumberSufix>^[A-Z]{1,3}[0-9]{1,3}$)``` - UK Number Plate
 
