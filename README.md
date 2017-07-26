@@ -30,7 +30,7 @@ List of common &amp; useful regex
 
 ## Misc
 
-
+- ```[A-Z]{1,2}[0-9][0-9A-Z]?\s?[0-9][A-Z]{2} ``` - UK Postcode
 - ```^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$ ``` - UK mobile (+44 accepted)
 - ```^([a-f0-9]{6}|[a-f0-9]{3})$ ``` - Hex Colour
 
